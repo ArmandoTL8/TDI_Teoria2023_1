@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/estilos1.css">
+<title>Practica 01 TDI</title>
+</head>
+<div class="Encabezado">
+<h1>Bienvenido a la segunda página</h1>
+</div>
+<body>
+    <h2 style="text-align: center;color: white;"> ¿Que deseas hacer?</h3>
+    <div class="lista">
+    <ul>
+        <li><a href="#Video">Ver el video </a> </li>
+        <li><a href="#Podcast">Escuchar un podcast de terror </a> </li>
+        <li><a href="../index.html" >Ir a la página anterior </a></li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+    <div class="Aud">
+        <h2 id="Podcast">Podcast de terror</h2>
+        <p>En este podcaste escucharemos una historia de terror narrada por el youtuber Dross</p>
+        <audio controls>
+            <source src="Dross.ogg" type="audio/ogg">
+            <source src="Dross.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio
+        </audio>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="Vid">
+    <h2 id="Video">Video</h2>
+<video width="500" height="300" autoplay muted controls loop>
+    <source src="RickRoll.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Su navegador no soporta la etiqueta video
+</video>
+<p>Has sido RickRolleado lml</p>
+</div>
+
+<div class="Encuesta; text-align: center">
+    <h2 id="form">Por último ayúdame a llenar esta encuesta dejando una opinión en cómo mejorarla</h2>
+<form action="/my-handling-form-page" method="post">
+    <ul>
+     <li>
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="user_name">
+     </li>
+     <li>
+       <label for="mail">E-mail:</label>
+       <input type="email" id="mail" name="user_email">
+     </li>
+     <li>
+       <label for="msg">Message:</label>
+       <textarea id="msg" name="user_message"></textarea>
+     </li>
+     <li class="button">
+        <button type="reset";>Send your opinion</button>
+      </li>
+    </ul>
+   </form>
+</div>
+</body>
+</html>
